@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Homework libs</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/@pnotify/core/dist/PNotify.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/@pnotify/core/dist/BrightTheme.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+  <body>
+    <section class="pnotify-sect">
+      <h2>Натисни правильну клавішу</h2>
+      <div id="key">Натисни "Нова гра"</div>
+      <button id="new-game">Нова гра</button>
+    </section>
+
+    <section class="chart-sect">
+      <h2>Статистика продажів за останній місяць</h2>
+      <canvas id="sales-chart"></canvas>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash/lodash.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@pnotify/core/dist/PNotify.js"></script>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
